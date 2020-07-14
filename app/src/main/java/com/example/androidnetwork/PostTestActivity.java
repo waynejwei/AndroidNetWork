@@ -411,6 +411,7 @@ public class PostTestActivity extends AppCompatActivity implements View.OnClickL
             private InputStream inputStream = null;
             private BufferedInputStream bfi = null;
             private OutputStream outputStream = null;
+
             String BOUNDARY = "--------------------------954555323792164398227139";//边界值,后面是随机数
             //String BOUNDARY = "----------------------------954555323792164398227139--";
             //String BOUNDARY = "----------------------------954555323792164398227139";
