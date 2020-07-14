@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostTestActivity">
+
+    <Button
+        android:id="@+id/postRequest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PostRequest"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/getParam"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="getParam"
+        android:textAllCaps="false"
+        android:onClick="getParam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postRequest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/postParam"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="postParam"
+        android:textAllCaps="false"
+        android:onClick="postParam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getParam"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/postFile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="postFile"
+        android:textAllCaps="false"
+        android:onClick="postFile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postParam"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/postFiles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="postFiles"
+        android:textAllCaps="false"
+        android:onClick="postFiles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postFile"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
